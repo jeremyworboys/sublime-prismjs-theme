@@ -48,7 +48,6 @@ pre[class*="language-"] {
 code[class*="language-"],
 pre[class*="language-"]
 .token.punctuation,
-.token.operator,
 .token.entity,
 .token.url {
     color: #f8f8f2; /* white */
@@ -64,9 +63,7 @@ pre[class*="language-"]
 
 /* string */
 .token.regex,
-.token.attr-name,
 .token.string,
-.token.atrule,
 .token.attr-value, {
     color: #e6db74; /* yellow */
 }
@@ -78,13 +75,16 @@ pre[class*="language-"]
 }
 
 /* tag name + keyword */
+.token.atrule,
 .token.tag,
 .token.keyword,
+.token.operator,
 .token.important {
     color: #f92672; /* magenta */
 }
 
 /* CSS selector */
+.token.attr-name,
 .token.selector {
     color: #9ee22d; /* green */
 }
