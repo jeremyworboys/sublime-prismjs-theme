@@ -64,7 +64,7 @@ pre[class*="language-"]
 /* string */
 .token.regex,
 .token.string,
-.token.attr-value, {
+.token.attr-value {
     color: #e6db74; /* yellow */
 }
 
